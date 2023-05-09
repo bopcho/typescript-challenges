@@ -1,3 +1,9 @@
+/* Check if the given number is even or not. Your function should return true if the number is even, and false if the number is odd.
+
+Input: A number.
+
+Output: Boolean. */
+
 import assert from "assert";
 
 function isEven(num: number): boolean {
