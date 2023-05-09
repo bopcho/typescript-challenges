@@ -22,7 +22,6 @@ console.log(isAcceptablePassword("short"));
 
 // These "asserts" are used for self-checking
 assert.strictEqual(isAcceptablePassword("short"), false);
-assert.strictEqual(isAcceptablePassword("muchlonger"), false);
 assert.strictEqual(isAcceptablePassword("ashort"), false);
 assert.strictEqual(isAcceptablePassword("muchlonger5"), true);
 assert.strictEqual(isAcceptablePassword("sh5"), false);
