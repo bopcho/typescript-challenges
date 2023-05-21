@@ -3,9 +3,9 @@ import assert from "assert";
 function isAcceptablePassword(password: string): boolean {
     // C1: the length should be bigger than 6;
     // C2: should contain at least one digit, but cannot consist of just digits.
-    const c1 = password.length > 6;
-    const c2 = /\d/.test(password) && !/^\d*$/.test(password);
-    return c1 && c2;
+    const cond1 = password.length > 6;
+    const cond2 = /\d/.test(password) && !/^\d*$/.test(password);
+    return cond1 && cond2;
 }
 
 
