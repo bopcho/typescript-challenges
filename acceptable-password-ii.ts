@@ -9,7 +9,3 @@ function isAcceptablePassword(password: string): boolean {
 
     return password.length > 6;
 }
-
-
-console.log("Example:");
-console.log(isAcceptablePassword("short"));
