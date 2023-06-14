@@ -1,3 +1,5 @@
+/*You have a non-negative integer. Try to find out how many digits it has.*/
+
 import assert from "assert";
 
 function numberLength(value: number): number {
